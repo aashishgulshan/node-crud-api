@@ -1,0 +1,21 @@
+REST API -JSON
+GET /users - List all users - Display HTML Data -Done
+
+GET /api/users - List all users in json - Done
+
+GET /api/user/1 - get the user with id 1 -Done
+GET /api/user/2 - get the user with id 2 - Done
+GET /api/protected/ for authentication - Done
+
+
+
+POST /api/user - create new user  -Done
+POST /api/reset-password - reset password - Done
+
+
+PATCH api/user/1 - edit user with id 1  - Done
+
+DELETE /user/1 - Delete the user with ID 1 -Done
+
+GET /api/* or /*  - For error page or page not found
+
