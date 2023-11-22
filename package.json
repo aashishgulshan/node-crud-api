@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "aashishGulshan",
+  "author": "Aashish Gulshan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
