@@ -7,8 +7,6 @@ GET /api/user/1 - get the user with id 1 -Done
 GET /api/user/2 - get the user with id 2 - Done
 GET /api/protected/ for authentication - Done
 
-
-
 POST /api/user - create new user  -Done
 POST /api/reset-password - reset password - Done
 
