@@ -1,10 +1,11 @@
+require('dotenv').config();
 const express = require("express");
 const fs = require("fs");
 const path = require("path"); // Import the 'path' module
 const users = require("./data/MOCK_DATA.json");
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT;
 
 // Middleware
 app.use(express.urlencoded({ extended: false }));
